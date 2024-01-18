@@ -2,6 +2,7 @@
 <v-app>
     <v-main>
         <HeaderComponets/>
+        <RouterView></RouterView>
     </v-main>
 </v-app>
 </template>
