@@ -1,7 +1,7 @@
 <template>
     <v-toolbar color="red"> 
 <v-row>
-    <v-col cols="6">
+    <v-col cols="11">
             <v-btn-toggle variant="text" color="white" v-model="toggle">
                 <v-btn to="/">Главная</v-btn>
                 <v-divider
@@ -16,6 +16,12 @@
                     class="border-opacity-100"
                     color="info"
                     ertical
+>               </v-divider>
+                <v-divider
+                    :thickness="5"
+                    class="border-opacity-100"
+                    color="info"
+                     vertical
 >               </v-divider>
                 <v-btn to='/jurnal'>журнал</v-btn>
                 <v-divider
@@ -34,8 +40,8 @@
             </v-btn-toggle>
     </v-col>
 
-    <v-col col="2">
-    Вход
+    <v-col col="4">
+        <v-btn to='/'>Вход</v-btn>
     </v-col>
 
 </v-row>
